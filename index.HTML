@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroForte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AgroForte</h1>
+        <p>Fortalecendo a agricultura sustentável</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#metas">Metas</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p>O AgroForte visa capacitar produtores rurais, melhorar a produtividade e promover práticas sustentáveis no campo.</p>
+            <button id="btnMaisInfo">Saiba Mais</button>
+            <p id="maisInfo" class="hidden">O projeto inclui capacitação técnica, assistência personalizada, implementação de tecnologias modernas e apoio à comercialização dos produtos.</p>
+        </section>
+
+        <section id="metas">
+            <h2>Metas do AgroForte</h2>
+            <ul>
+                <li>Capacitar 100 produtores</li>
+                <li>Realizar 12 cursos e 24 oficinas práticas</li>
+                <li>Aumentar a produtividade em 20%</li>
+                <li>Reduzir desperdício de água em 15%</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="formContato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="resposta" class="hidden"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 AgroForte. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
